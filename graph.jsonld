@@ -1,0 +1,477 @@
+{
+  "@context": "ld.hackers4peace.net/contexts/plp.jsonld",
+  "@graph": [
+    {
+      "id": "http://hackers4peace.net/plp",
+      "type": "Project",
+      "name": "Portable Linked Profiles",
+      "image": "http://codefor.de/assets/projects/berlin/portablelinkedprofiles.png",
+      "description": "Set of technologies making it easy to publish various kinds of profiles as linked data.\n\nPLP proposes a pattern for the creation, storage, listing and representation of public profile data for people, groups, organizations, venues and a large etcetera.\n\nBased on Open Web Standards, Common Vocabularies and Open Source technologies, it offers users the possibility to own the their data diverging from current mainstream and centralized profile platforms.",
+      "contributor": [
+        {
+          "id": "https://wwelves.org/perpetual-tripper",
+          "name": "elf Pavlik"
+        },
+        {
+          "id": "https://wwelves.org/perpetual-tripper",
+          "name": "Alex Corbi"
+        },
+        {
+          "id": "https://jonrichter.de",
+          "name": "Jon Richter"
+        }
+      ],
+      "event": [
+        {
+          "type": "Event",
+          "id": "http://get-d.net/get-decentralized-september-2014-berlin/",
+          "name": "GET-D Berlin 2014"
+        },
+        {
+          "type": "Event",
+          "id": "http://www.meetup.com/OK-Lab-Berlin/events/220120260/",
+          "name": "OKLab Berlin Feb 2nd 2015"
+        },
+        {
+          "type": "Event",
+          "id": "https://plus.google.com/events/cddrku14ro1citkcdriqul3mmf0",
+          "name": "PLP Session #4"
+        }
+      ],
+      "listedIn": [
+        {
+          "type": "Organization",
+          "id": "http://codefor.de/projekte/alle/",
+          "name": "Code for Germany"
+        },
+        {
+          "type": "Organization",
+          "id": "http://codefor.de/berlin/",
+          "name": "Code for Berlin"
+        }
+      ]
+    },
+    {
+      "id": "https://wwelves.org/perpetual-tripper",
+      "type": ["Person", "foaf:Person"],
+      "name": "elf Pavlik",
+      "image": "http://wwelves.org/images/elf-pavlik.jpg",
+      "birthDate": "1982-09-19",
+      "birthDayParty": "2015-09-19",
+      "homeLocation": {
+        "type": "Place",
+        "id": "http://sws.geonames.org/6295630/",
+        "name": "Earth"
+      },
+      "currentLocation": {
+        "type": "Place",
+        "id": "http://sws.geonames.org/2950159/",
+        "name": "Berlin"
+      },
+      "description": "#hacker / #elf - living strictly #moneyless and #stateless already for over 5 years! #WorldPeaceGame #ZeroWaste",
+      "contactPoint": [
+        {
+          "type": "ContactPoint",
+          "id": "mailto:perpetual-tripper@wwelves.org",
+          "name": "email (smtp)"
+        }, {
+          "type": "ContactPoint",
+          "id": "xmpp:perpetual-tripper@wwelves.org",
+          "name": "jabber (xmpp)"
+        }, {
+          "type": "ContactPoint",
+          "id": "irc://irc.freenode.net/elf-pavlik,isnick",
+          "name": "freenode (irc)"
+        }
+      ],
+      "sameAs": [
+        {
+          "id": "https://github.com/elf-pavlik",
+          "name": "Github"
+        }, {
+          "id": "https://twitter.com/elfpavlik",
+          "name": "Twitter"
+        }, {
+          "id": "https://plus.google.com/+elfPavlik",
+          "name": "Google+"
+        }, {
+          "id": "https://facebook.com/elf.pavlik",
+          "name": "Facebook"
+        }
+      ],
+      "cco:skill": [
+        {
+          "id": "http://dbpedia.org/resource/General_Transit_Feed_Specification",
+          "name": "GTFS"
+        },
+        {
+          "id": "http://dbpedia.org/resource/E-Prime",
+          "name": "E-Prime"
+        }
+      ],
+      "cco:habit": [
+        {
+          "type": "cco:CognitiveCharacteristic",
+          "cco:topic": {
+            "id": "http://dbpedia.org/resource/Vegetarianism",
+            "name": "Vegetarianism"
+          }
+        },
+        {
+          "type": "cco:CognitiveCharacteristic",
+          "cco:topic": {
+            "id": "http://dbpedia.org/resource/Veganism",
+            "name": "Veganism"
+          }
+        },
+        {
+          "type": "cco:CognitiveCharacteristic",
+          "cco:topic": {
+            "id": "http://dbpedia.org/resource/Polyamory",
+            "name": "Polyamory"
+          }
+        },
+        {
+          "type": "cco:CognitiveCharacteristic",
+          "cco:topic": {
+            "id": "http://dbpedia.org/resource/Joint_(cannabis)",
+            "name": "Joint (cannabis)"
+          }
+        },
+        {
+          "type": "cco:CognitiveCharacteristic",
+          "cco:topic": {
+            "id": "http://dbpedia.org/resource/Chocolate",
+            "name": "Chocolate"
+          }
+        }
+      ],
+      "foaf:currentProject":[
+        {
+          "type": "doap:Project",
+          "id": "http://hackers4peace.net/plp",
+          "name": "Portable Linked Profiles"
+        }
+      ],
+      "member":[
+        {
+          "type": "Organization",
+          "id": "http://unmonastery.org",
+          "name": "unMonastery"
+        }, {
+          "type": "Organization",
+          "id": "https://wwelves.org",
+          "name": "worldwide elves"
+        }, {
+          "type": "Organization",
+          "id": "http://hackers4peace.net",
+          "name": "hackers4peace"
+        }, {
+          "type": "Organization",
+          "id": "http://moneyless.info",
+          "name": "moneyless world"
+        }, {
+          "type": "Organization",
+          "id": "http://ouishare.net",
+          "name": "OuiShare"
+        }, {
+          "type": "Organization",
+          "id": "http://labs.ouishare.net",
+          "name": "OuiShare Labs"
+        }, {
+          "type": "Organization",
+          "id": "http://edgeryders.eu",
+          "name": "Edgeryders"
+        }, {
+          "type": "Organization",
+          "id": "http://www.w3.org",
+          "name": "The World Wide Web Consortium (W3C) "
+        }, {
+          "type": "Organization",
+          "id": "http://indiewebcamp.com/",
+          "name": "IndieWebCamp"
+        }
+      ],
+      "attendeeIn": [
+        {
+          "type": "Event",
+          "id": "http://2014.okfestival.org",
+          "name": "OKFestival 2014"
+        }, {
+          "type": "Event",
+          "id": "http://2014.ouisharefest.com",
+          "name": "OuiShare Fest 2014"
+        }, {
+          "type": "Event",
+          "id": "http://2013.elevate.at",
+          "name": "Elevate Festival 2013"
+        }, {
+          "type": "Event",
+          "id": "http://2014.elevate.at",
+          "name": "Elevate Festival 2014"
+        }, {
+          "type": "Event",
+          "id": "http://sense-camp.org/#2014",
+          "name": "SenseCamp Berlin 2014"
+        }, {
+          "type": "Event",
+          "id": "https://border-none.net/2014",
+          "name": "border:none 2014"
+        }, {
+          "type": "Event",
+          "id": "https://squatconf.eu",
+          "name": "Squatconf Paris 2014"
+        }, {
+          "type": "Event",
+          "id": "https://apidays.io",
+          "name": "APIdays Paris 2014"
+        }, {
+          "type": "Event",
+          "id": "https://events.ccc.de/congress/2014",
+          "name": "31st Chaos Communication Congress (31C3)"
+        }
+      ],
+      "visited": [
+        {
+          "type": "Place",
+          "id": "http://sws.geonames.org/2950159/",
+          "name": "Berlin"
+        }, {
+          "type": "Place",
+          "id": "http://sws.geonames.org/2879139/",
+          "name": "Leipzig"
+        }, {
+          "type": "Place",
+          "id": "http://sws.geonames.org/2867714/",
+          "name": "Munich"
+        }, {
+          "type": "Place",
+          "id": "http://sws.geonames.org/2778067/",
+          "name": "Graz"
+        }, {
+          "type": "Place",
+          "id": "http://sws.geonames.org/2761369/",
+          "name": "Vienna"
+        }, {
+          "type": "Place",
+          "id": "http://sws.geonames.org/2988507/",
+          "name": "Paris"
+        }, {
+          "type": "Place",
+          "id": "http://sws.geonames.org/2759794/",
+          "name": "Amsterdam"
+        }, {
+          "type": "Place",
+          "id": "http://sws.geonames.org/2800866/",
+          "name": "Brussels"
+        }, {
+          "type": "Place",
+          "id": "http://sws.geonames.org/3128760/",
+          "name": "Barcelona"
+        }, {
+          "type": "Place",
+          "id": "http://sws.geonames.org/2735943/",
+          "name": "Porto"
+        }, {
+          "type": "Place",
+          "id": "http://sws.geonames.org/2267057/",
+          "name": "Lisbon"
+        }, {
+          "type": "Place",
+          "id": "http://sws.geonames.org/3181928/",
+          "name": "Bologna"
+        }, {
+          "type": "Place",
+          "id": "http://sws.geonames.org/3181913/",
+          "name": "Bolzano"
+        }, {
+          "type": "Place",
+          "id": "http://sws.geonames.org/3165243/",
+          "name": "Trento"
+        }, {
+          "type": "Place",
+          "id": "http://sws.geonames.org/3169070/",
+          "name": "Rome"
+        }, {
+          "type": "Place",
+          "id": "http://sws.geonames.org/3173721/",
+          "name": "Matera"
+        }, {
+          "type": "Place",
+          "id": "http://sws.geonames.org/3099434/",
+          "name": "Gdansk"
+        }, {
+          "type": "Place",
+          "id": "http://sws.geonames.org/756135/",
+          "name": "Warsaw"
+        }, {
+          "type": "Place",
+          "id": "http://sws.geonames.org/3067696/",
+          "name": "Prague"
+        }, {
+          "type": "Place",
+          "id": "http://sws.geonames.org/2661604/",
+          "name": "Basel"
+        }, {
+          "type": "Place",
+          "id": "http://sws.geonames.org/2657896/",
+          "name": "Zurich"
+        }, {
+          "type": "Place",
+          "id": "http://sws.geonames.org/5128581/",
+          "name": "New York"
+        }, {
+          "type": "Place",
+          "id": "http://sws.geonames.org/5391959/",
+          "name": "San Francisco"
+        }, {
+          "type": "Place",
+          "id": "http://sws.geonames.org/5368361/",
+          "name": "Los Angeles"
+        }, {
+          "type": "Place",
+          "id": "http://sws.geonames.org/4930956/",
+          "name": "Boston"
+        }, {
+          "type": "Place",
+          "id": "http://sws.geonames.org/2973783/",
+          "name": "Strasbourg"
+        }, {
+          "type": "Place",
+          "id": "http://sws.geonames.org/2861650/",
+          "name": "Nuremberg"
+        }, {
+          "type": "Place",
+          "id": "http://sws.geonames.org/2925533/",
+          "name": "Frankfurt am Main"
+        }, {
+          "type": "Place",
+          "id": "http://sws.geonames.org/2911298/",
+          "name": "Hamburg"
+        }
+      ],
+      "seeks": [
+        {
+          "type": "Demand",
+          "itemOffered": {
+            "type": "Product",
+            "id": "http://bad-elf.com/pages/be-gps-2200-detail",
+            "name": "Bad Elf GPS Pro"
+          }
+        }, {
+          "type": "Demand",
+          "itemOffered": {
+            "type": "Ticket",
+            "id": "http://www.interrail.eu/interrail-passes/global-pass#adult",
+            "name": "InterRail Global Pass"
+          }
+        }, {
+          "type": "Demand",
+          "itemOffered": {
+            "type": "Ticket",
+            "id": "https://copass.org/plans#adventurer",
+            "name": "Copass: adventurer"
+          }
+        }, {
+          "type": "Demand",
+          "itemOffered": {
+            "type": "Product",
+            "id": "https://www.fairphone.com/",
+            "name": "Fairphone"
+          }
+        }, {
+          "type": "Demand",
+          "itemOffered": {
+            "type": "Product",
+            "id": "https://mobilevikings.be/en/offer/bundles/call-text-data/",
+            "name": "Mobile Vikings SIM"
+          }
+        }, {
+          "type": "Demand",
+          "itemOffered": {
+            "type": "Product",
+            "id": "https://mobilevikings.be/en/offer/gift/cards/",
+            "name": "Mobile Vikings Gift Cards"
+          }
+        }, {
+          "type": "Demand",
+          "itemOffered": {
+            "type": "Product",
+            "id": "https://www.nitrokey.com/",
+            "name": "Nitrokey"
+          }
+        }
+      ],
+      "owns": [
+        {
+          "type": "IndividualProduct",
+          "id": "https://wwelves.org/perpetual-tripper/401967f0-0f53-4c5c-8902-7b14803e12f1",
+          "name": "Lenovo: ThinkPad R400"
+        },
+        {
+          "type": "IndividualProduct",
+          "id": "https://wwelves.org/perpetual-tripper/401967f0-0f53-4c5c-8902-7b14803e12f1",
+          "name": "Samsung GT-I90000"
+        }
+
+      ],
+      "sec:publicKey": [
+        {
+          "id": "https://wwelves.org/perpetual-tripper/keys/1179616f-ae06-466f-82ba-225461e689f1",
+          "name": "F5761A1E",
+          "sec:publicKeyPem": "-----BEGIN PGP PUBLIC KEY BLOCK-----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LPz3-----END PGP PUBLIC KEY BLOCK-----"
+        }
+      ],
+      "hydra:collection": [
+        {
+          "id": "http://media.hackers4peace.net/19a95844-4180-4325-9b3a-ec5ec6d04dc9",
+          "type": ["hydra:Collection", "ldp:Container"],
+          "name": "Images",
+          "hydra:manages": {
+            "hydra:object": "https://wwelves.org/perpetual-tripper",
+            "hydra:property": "author",
+            "hydra:type": "ImageObject"
+          },
+          "hydra:operation":[
+            {
+              "@type": ["AddAction", "ldp:Post"],
+              "hydra:expects": "ImageObject"
+            }
+          ]
+        },
+        {
+          "id": "http://media.hackers4peace.net/4b717f07-bfa7-4e48-a959-e1dbd837776b",
+          "type": ["hydra:Collection", "ldp:Container"],
+          "name": "Videos",
+          "hydra:manages": {
+            "hydra:object": "https://wwelves.org/perpetual-tripper",
+            "hydra:property": "author",
+            "hydra:type": "VideoObject"
+          },
+          "hydra:operation":[
+            {
+              "@type": ["AddAction", "ldp:Post"],
+              "hydra:expects": "VideoObject"
+            }
+          ]
+        },
+        {
+          "id": "http://media.hackers4peace.net/2d791b75-dacf-43f7-8fdb-9440c7f098ae",
+          "type": ["hydra:Collection", "ldp:Container"],
+          "name": "Audio",
+          "hydra:manages": {
+            "hydra:object": "https://wwelves.org/perpetual-tripper",
+            "hydra:property": "author",
+            "hydra:type": "AudioObject"
+          },
+          "hydra:operation":[
+            {
+              "@type": ["AddAction", "ldp:Post"],
+              "hydra:expects": "AudioObject"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
