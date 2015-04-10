@@ -1,5 +1,5 @@
 {
-  "@context": "ld.hackers4peace.net/contexts/plp.jsonld",
+  "@context": "http://ld.hackers4peace.net/contexts/plp.jsonld",
   "@graph": [
     {
       "id": "http://hackers4peace.net/plp",
