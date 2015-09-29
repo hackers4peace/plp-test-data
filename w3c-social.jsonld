@@ -1,0 +1,398 @@
+{
+  "@context": [
+    "https://w3id.org/verb/",
+    "https://w3id.org/role/",
+    {
+      "ldp": "http://www.w3.org/ns/ldp#",
+      "owl": "http://www.w3.org/2002/07/owl#",
+      "verb": "https://w3id.org/verb/#",
+      "role": "https://w3id.org/role/#",
+      "schema": "http://schema.org/",
+      "hydra": "http://www.w3.org/ns/hydra/core#",
+      "url": { "@id": "schema:url", "@type": "@id" },
+      "name": "schema:name",
+      "resource": { "@id": "ldp:membershipResource", "@type": "@id" },
+      "collection": { "@reverse": "ldp:membershipResource", "@type": "@id" },
+      "rel": { "@id": "ldp:hasMemberRelation", "@type": "@id" },
+      "rev": { "@id": "ldp:isMemberOfRelation", "@type": "@id" },
+      "item": { "@id": "ldp:contains", "@type": "@id" },
+      "totalItems": "hydra:totalItems",
+      "lgd": "http://linkedgeodata.org/triplify/",
+      "dbpedia": "http://dbpedia.org/resource/",
+      "h4p": "https://graph.hackers4peace.net/"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "h4p:ef093385-8906-4c78-9a69-9217c76013a8",
+      "@type": "schema:Person",
+      "uuid": "ef093385-8906-4c78-9a69-9217c76013a8",
+      "url": "https://wwelves.org/perpetual-tripper",
+      "name": "elf Pavlik",
+      "collection": [
+        {
+          "@id": "h4p:484e225d-c52c-4639-b558-ac160dd2246d",
+          "rev": "role:member",
+          "totalItems": 2
+        }, {
+          "@id": "h4p:caef4288-4ab4-4b73-9e59-2c8a4d3ff034",
+          "rev": "role:attendee",
+          "totalItems": 3
+        }, {
+          "@id": "h4p:e185776e-6408-41f2-9574-dd75b2efd156",
+          "rel": "verb:like",
+          "totalItems": 1
+        }, {
+          "@id": "h4p:a26776b3-42a9-4d24-bc0e-474c976a068c",
+          "rel": "verb:read",
+          "totalItems": 1
+        }, {
+          "@id": "h4p:8bd87b71-bc89-4cb5-a914-c9434f9a3dae",
+          "rel": "verb:visit",
+          "totalItems": 1
+        }
+      ]
+    }, {
+      "@id": "h4p:484e225d-c52c-4639-b558-ac160dd2246d",
+      "uuid": "484e225d-c52c-4639-b558-ac160dd2246d",
+      "@type": "ldp:DirectContainer",
+      "resource": "h4p:ef093385-8906-4c78-9a69-9217c76013a8",
+      "rev": "role:member",
+      "totalItems": 2,
+      "item": [
+        "h4p:5dce39f1-4ceb-40b5-ba12-2af6c578eb40",
+        "h4p:8776906b-8bdb-4481-9ffe-839c35d1b5c9"
+      ]
+    }, {
+      "@id": "h4p:caef4288-4ab4-4b73-9e59-2c8a4d3ff034",
+      "uuid": "caef4288-4ab4-4b73-9e59-2c8a4d3ff034",
+      "@type": "ldp:DirectContainer",
+      "resource": "h4p:ef093385-8906-4c78-9a69-9217c76013a8",
+      "rev": "role:attendee",
+      "totalItems": 3,
+      "item": [
+        "h4p:394682db-4ad2-424c-9c23-0f58db2b783e",
+        "h4p:0c79b0bc-cb04-4a0b-b147-bd0127044676",
+        "h4p:b71e6424-c1a0-49db-b198-00741383d53e"
+      ]
+    }, {
+      "@id": "h4p:e185776e-6408-41f2-9574-dd75b2efd156",
+      "uuid": "e185776e-6408-41f2-9574-dd75b2efd156",
+      "@type": "ldp:DirectContainer",
+      "resource": "h4p:ef093385-8906-4c78-9a69-9217c76013a8",
+      "rel": "verb:like",
+      "totalItems": 1,
+      "item": [
+        "h4p:93cedf6a-bc2f-43df-a388-dbcf1702bfc7"
+      ]
+    }, {
+      "@id": "h4p:a26776b3-42a9-4d24-bc0e-474c976a068c",
+      "uuid": "a26776b3-42a9-4d24-bc0e-474c976a068c",
+      "@type": "ldp:DirectContainer",
+      "resource": "h4p:ef093385-8906-4c78-9a69-9217c76013a8",
+      "rel": "verb:read",
+      "totalItems": 1,
+      "item": [
+        "h4p:5f9a24d2-3e87-4e0d-82af-f401b68c625b"
+      ]
+    }, {
+      "@id": "h4p:8bd87b71-bc89-4cb5-a914-c9434f9a3dae",
+      "uuid": "8bd87b71-bc89-4cb5-a914-c9434f9a3dae",
+      "@type": "ldp:DirectContainer",
+      "resource": "h4p:ef093385-8906-4c78-9a69-9217c76013a8",
+      "rel": "verb:visit",
+      "totalItems": 1,
+      "item": [
+        "lgd:relation7444"
+      ]
+    }, {
+      "@id": "h4p:30b8f30b-d7f2-472f-bbcd-359cd59066f3",
+      "@type": "schema:Person",
+      "uuid": "30b8f30b-d7f2-472f-bbcd-359cd59066f3",
+      "url": "http://rhiaro.co.uk/",
+      "name": "Amy Guy",
+      "collection": [
+        {
+          "@id": "h4p:2af92df2-46f7-4997-a9b4-24e64e409e52",
+          "rev": "role:member",
+          "totalItems": 2
+        }
+      ]
+    }, {
+      "@id": "h4p:2af92df2-46f7-4997-a9b4-24e64e409e52",
+      "uuid": "2af92df2-46f7-4997-a9b4-24e64e409e52",
+      "@type": "ldp:DirectContainer",
+      "resource": "h4p:30b8f30b-d7f2-472f-bbcd-359cd59066f3",
+      "rev": "role:member",
+      "totalItems": 2,
+      "item": [
+        "h4p:5dce39f1-4ceb-40b5-ba12-2af6c578eb40",
+        "h4p:8776906b-8bdb-4481-9ffe-839c35d1b5c9"
+      ]
+    }, {
+      "@id": "h4p:5dce39f1-4ceb-40b5-ba12-2af6c578eb40",
+      "@type": "schema:Group",
+      "uuid": "5dce39f1-4ceb-40b5-ba12-2af6c578eb40",
+      "url": "http://www.w3.org/Social/WG",
+      "name": "Social WG",
+      "collection": [
+        {
+          "@id": "h4p:86fd1335-b3c6-4a36-949a-bd2b70d8b71e",
+          "rel": "role:member",
+          "totalItems": 2
+        },
+        {
+          "@id": "h4p:",
+          "rel": "role:chair",
+          "totalItems": 3
+        },
+        {
+          "@id": "h4p:0c3709ba-b723-4d7d-ab61-b2f5231d97c7",
+          "rel": "role:staff",
+          "totalItems": 2
+        }
+      ]
+    }, {
+      "@id": "h4p:86fd1335-b3c6-4a36-949a-bd2b70d8b71e",
+      "uuid": "86fd1335-b3c6-4a36-949a-bd2b70d8b71e",
+      "@type": "ldp:DirectContainer",
+      "resource": "h4p:5dce39f1-4ceb-40b5-ba12-2af6c578eb40",
+      "rel": "role:member",
+      "totalItems": 2,
+      "item": [
+        "h4p:ef093385-8906-4c78-9a69-9217c76013a8",
+        "h4p:30b8f30b-d7f2-472f-bbcd-359cd59066f3"
+      ]
+    }, {
+      "@id": "h4p:0c3709ba-b723-4d7d-ab61-b2f5231d97c7",
+      "uuid": "0c3709ba-b723-4d7d-ab61-b2f5231d97c7",
+      "@type": "ldp:DirectContainer",
+      "resource": "h4p:5dce39f1-4ceb-40b5-ba12-2af6c578eb40",
+      "rel": "role:chair",
+      "totalItems": 3,
+      "item": [
+      ]
+    }, {
+      "@id": "h4p:0c3709ba-b723-4d7d-ab61-b2f5231d97c7",
+      "uuid": "0c3709ba-b723-4d7d-ab61-b2f5231d97c7",
+      "@type": "ldp:DirectContainer",
+      "resource": "h4p:5dce39f1-4ceb-40b5-ba12-2af6c578eb40",
+      "rel": "role:staff",
+      "totalItems": 2,
+      "item": [
+      ]
+    }, {
+      "@id": "h4p:8776906b-8bdb-4481-9ffe-839c35d1b5c9",
+      "@type": "schema:Group",
+      "uuid": "8776906b-8bdb-4481-9ffe-839c35d1b5c9",
+      "url": "http://www.w3.org/Social/IG",
+      "name": "Social IG",
+      "collection": [
+        {
+          "@id": "h4p:3a3547f0-2e54-48dd-998d-f509a3fa6332",
+          "rel": "role:member",
+          "totalItems": 2
+        }
+      ]
+    }, {
+      "@id": "h4p:3a3547f0-2e54-48dd-998d-f509a3fa6332",
+      "uuid": "3a3547f0-2e54-48dd-998d-f509a3fa6332",
+      "@type": "ldp:DirectContainer",
+      "resource": "h4p:8776906b-8bdb-4481-9ffe-839c35d1b5c9",
+      "rel": "role:member",
+      "totalItems": 2,
+      "item": [
+        "h4p:ef093385-8906-4c78-9a69-9217c76013a8",
+        "h4p:30b8f30b-d7f2-472f-bbcd-359cd59066f3"
+      ]
+    }, {
+      "@id": "h4p:394682db-4ad2-424c-9c23-0f58db2b783e",
+      "@type": "schema:Event",
+      "uuid": "394682db-4ad2-424c-9c23-0f58db2b783e",
+      "url": "http://apidays.io",
+      "name": "API Days 2015: Paris",
+      "collection": [
+        {
+          "@id": "h4p:1353c3bd-215e-49eb-803e-092d7fb377c5",
+          "rel": "role:attendee",
+          "totalItems": 1
+        },
+        {
+          "@id": "h4p:c1f6c9c3-28a1-419b-8b38-2c337759419f",
+          "rel": "role:speaker",
+          "totalItems": 0
+        },
+        {
+          "@id": "h4p:d373c8b8-fee6-463d-aabb-8583781410a9",
+          "rel": "role:organizer",
+          "totalItems": 0
+        }
+      ]
+    }, {
+      "@id": "h4p:1353c3bd-215e-49eb-803e-092d7fb377c5",
+      "uuid": "1353c3bd-215e-49eb-803e-092d7fb377c5",
+      "@type": "ldp:DirectContainer",
+      "resource": "h4p:394682db-4ad2-424c-9c23-0f58db2b783e",
+      "rel": "role:attendee",
+      "totalItems": 1,
+      "item": [
+        "h4p:ef093385-8906-4c78-9a69-9217c76013a8"
+      ]
+    }, {
+      "@id": "h4p:c1f6c9c3-28a1-419b-8b38-2c337759419f",
+      "uuid": "c1f6c9c3-28a1-419b-8b38-2c337759419f",
+      "@type": "ldp:DirectContainer",
+      "resource": "h4p:394682db-4ad2-424c-9c23-0f58db2b783e",
+      "rel": "role:speaker",
+      "totalItems": 0,
+      "item": [
+      ]
+    }, {
+      "@id": "h4p:c1f6c9c3-28a1-419b-8b38-2c337759419f",
+      "uuid": "c1f6c9c3-28a1-419b-8b38-2c337759419f",
+      "@type": "ldp:DirectContainer",
+      "resource": "h4p:394682db-4ad2-424c-9c23-0f58db2b783e",
+      "rel": "role:organizer",
+      "totalItems": 0,
+      "item": [
+      ]
+    }, {
+      "@id": "h4p:0c79b0bc-cb04-4a0b-b147-bd0127044676",
+      "@type": "schema:Event",
+      "uuid": "0c79b0bc-cb04-4a0b-b147-bd0127044676",
+      "url": "http://www.w3.org/wiki/Socialwg/F2F#4",
+      "name": "W3C Social F2F#4",
+      "collection": [
+        {
+          "@id": "h4p:3a208d99-85b2-43d1-af22-10e6bbe820cf",
+          "rel": "role:attendee",
+          "totalItems": 1
+        }
+      ]
+    }, {
+      "@id": "h4p:3a208d99-85b2-43d1-af22-10e6bbe820cf",
+      "uuid": "3a208d99-85b2-43d1-af22-10e6bbe820cf",
+      "@type": "ldp:DirectContainer",
+      "resource": "h4p:0c79b0bc-cb04-4a0b-b147-bd0127044676",
+      "rel": "role:attendee",
+      "totalItems": 1,
+      "item": [
+        "h4p:ef093385-8906-4c78-9a69-9217c76013a8"
+      ]
+    }, {
+      "@id": "h4p:b71e6424-c1a0-49db-b198-00741383d53e",
+      "@type": "schema:Event",
+      "uuid": "b71e6424-c1a0-49db-b198-00741383d53e",
+      "url": "https://fosdem.org/2016/",
+      "name": "FOSDEM 2016",
+      "collection": [
+        {
+          "@id": "h4p:56d58d28-760c-40a6-892c-9b636de35e85",
+          "rel": "role:attendee",
+          "totalItems": 1
+        }
+      ]
+    }, {
+      "@id": "h4p:56d58d28-760c-40a6-892c-9b636de35e85",
+      "uuid": "56d58d28-760c-40a6-892c-9b636de35e85",
+      "@type": "ldp:DirectContainer",
+      "resource": "h4p:0c79b0bc-cb04-4a0b-b147-bd0127044676",
+      "rel": "role:attendee",
+      "totalItems": 1,
+      "item": [
+        "h4p:ef093385-8906-4c78-9a69-9217c76013a8"
+      ]
+    }, {
+      "@id": "h4p:5f9a24d2-3e87-4e0d-82af-f401b68c625b",
+      "@type": "schema:CreativeWork",
+      "uuid": "5f9a24d2-3e87-4e0d-82af-f401b68c625b",
+      "url": "http://www.w3.org/TR/activitystreams-core/",
+      "name": "Activity Streams 2.0",
+      "collection": [
+        {
+          "@id": "h4p:5c4cfc6d-a5c8-4df0-b54e-68fe5df72867",
+          "rev": "verb:read",
+          "totalItems": 1
+        }
+      ]
+    }, {
+      "@id": "h4p:5c4cfc6d-a5c8-4df0-b54e-68fe5df72867",
+      "uuid": "5c4cfc6d-a5c8-4df0-b54e-68fe5df72867",
+      "@type": "ldp:DirectContainer",
+      "resource": "h4p:93cedf6a-bc2f-43df-a388-dbcf1702bfc7",
+      "rev": "verb:read",
+      "totalItems": 1,
+      "item": [
+        "h4p:ef093385-8906-4c78-9a69-9217c76013a8"
+      ]
+    }, {
+      "@id": "lgd:relation7444",
+      "@type": "schema:Place",
+      "uuid": "fafc1699-20e5-4d0c-9488-8b4100d8fd49",
+      "url": "http://www.paris.fr",
+      "name": "Paris",
+      "owl:sameAs": [
+        "h4p:fafc1699-20e5-4d0c-9488-8b4100d8fd49",
+        "dbpedia:Paris",
+        "http://sws.geonames.org/2988507/"
+      ],
+      "collection": [
+        {
+          "@id": "h4p:aaeb93fe-fd5f-41da-a687-03a030e78d80",
+          "rev": "verb:visit",
+          "totalItems": 0
+        }
+      ]
+    }, {
+      "@id": "h4p:aaeb93fe-fd5f-41da-a687-03a030e78d80",
+      "uuid": "aaeb93fe-fd5f-41da-a687-03a030e78d80",
+      "@type": "ldp:DirectContainer",
+      "resource": "lgd:relation7444",
+      "rev": "verb:visit",
+      "totalItems": 1,
+      "item": [
+        "h4p:ef093385-8906-4c78-9a69-9217c76013a8"
+      ]
+    }, {
+      "@id": "h4p:93cedf6a-bc2f-43df-a388-dbcf1702bfc7",
+      "@type": "schema:Book",
+      "uuid": "93cedf6a-bc2f-43df-a388-dbcf1702bfc7",
+      "url": "http://www.thezeromarginalcostsociety.com/",
+      "name": "The Zero Marginal Cost Society",
+      "owl:sameAs": [
+        "urn:isbn:9781137437761"
+      ],
+      "collection": [
+        {
+          "@id": "h4p:4307ccce-f9eb-4c97-9481-d9fd5c48d2a4",
+          "rev": "verb:like",
+          "totalItems": 1
+        },
+        {
+          "@id": "h4p:21329988-8b1b-4a31-8a98-bd27186e551c",
+          "rev": "verb:read",
+          "totalItems": 0
+        }
+      ]
+    }, {
+      "@id": "h4p:4307ccce-f9eb-4c97-9481-d9fd5c48d2a4",
+      "uuid": "4307ccce-f9eb-4c97-9481-d9fd5c48d2a4",
+      "@type": "ldp:DirectContainer",
+      "resource": "h4p:93cedf6a-bc2f-43df-a388-dbcf1702bfc7",
+      "rev": "verb:like",
+      "totalItems": 1,
+      "item": [
+        "h4p:ef093385-8906-4c78-9a69-9217c76013a8"
+      ]
+    }, {
+      "@id": "h4p:21329988-8b1b-4a31-8a98-bd27186e551c",
+      "uuid": "21329988-8b1b-4a31-8a98-bd27186e551c",
+      "@type": "ldp:DirectContainer",
+      "resource": "h4p:93cedf6a-bc2f-43df-a388-dbcf1702bfc7",
+      "rev": "verb:read",
+      "totalItems": 0,
+      "item": [
+      ]
+    }
+  ]
+}
